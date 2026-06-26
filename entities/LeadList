@@ -1,0 +1,29 @@
+{
+  "name": "LeadList",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "lead_count": {
+      "type": "number",
+      "default": 0
+    },
+    "avg_lead_score": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
