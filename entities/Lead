@@ -1,0 +1,143 @@
+{
+  "name": "Lead",
+  "type": "object",
+  "properties": {
+    "business_name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "website_url": {
+      "type": "string"
+    },
+    "google_maps_link": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "review_count": {
+      "type": "number"
+    },
+    "ai_fit_reason": {
+      "type": "string"
+    },
+    "lead_score": {
+      "type": "number"
+    },
+    "suggested_service": {
+      "type": "string",
+      "enum": [
+        "Website Build",
+        "Website Redesign",
+        "SEO Improvement",
+        "CRM Platform",
+        "Booking/Contact System",
+        "Automation/Workflow System"
+      ]
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "Hot",
+        "Warm",
+        "Low"
+      ],
+      "default": "Warm"
+    },
+    "pipeline_stage": {
+      "type": "string",
+      "enum": [
+        "New",
+        "Researched",
+        "Contacted",
+        "Followed Up",
+        "Interested",
+        "Proposal Sent",
+        "Won",
+        "Lost"
+      ],
+      "default": "New"
+    },
+    "has_website": {
+      "type": "boolean"
+    },
+    "website_score": {
+      "type": "number"
+    },
+    "audit_visual_quality": {
+      "type": "string"
+    },
+    "audit_mobile_friendly": {
+      "type": "string"
+    },
+    "audit_speed": {
+      "type": "string"
+    },
+    "audit_seo": {
+      "type": "string"
+    },
+    "audit_cta": {
+      "type": "string"
+    },
+    "audit_contact_form": {
+      "type": "string"
+    },
+    "audit_booking_system": {
+      "type": "string"
+    },
+    "audit_modern_design": {
+      "type": "string"
+    },
+    "audit_needs_redesign": {
+      "type": "boolean"
+    },
+    "audit_needs_crm": {
+      "type": "boolean"
+    },
+    "audit_problems": {
+      "type": "string"
+    },
+    "audit_opportunity": {
+      "type": "string"
+    },
+    "audit_recommended_offer": {
+      "type": "string"
+    },
+    "audit_outreach_angle": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "tasks": {
+      "type": "string"
+    },
+    "next_followup": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_action": {
+      "type": "string"
+    },
+    "last_action_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "list_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "business_name",
+    "category",
+    "location"
+  ]
+}
