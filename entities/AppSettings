@@ -1,0 +1,50 @@
+{
+  "name": "AppSettings",
+  "type": "object",
+  "properties": {
+    "google_places_api_key": {
+      "type": "string"
+    },
+    "ai_api_key": {
+      "type": "string"
+    },
+    "default_location": {
+      "type": "string",
+      "default": "Charlotte, NC"
+    },
+    "default_industries": {
+      "type": "string"
+    },
+    "scoring_weight_no_website": {
+      "type": "number",
+      "default": 25
+    },
+    "scoring_weight_outdated": {
+      "type": "number",
+      "default": 20
+    },
+    "scoring_weight_no_mobile": {
+      "type": "number",
+      "default": 15
+    },
+    "scoring_weight_poor_seo": {
+      "type": "number",
+      "default": 15
+    },
+    "scoring_weight_no_cta": {
+      "type": "number",
+      "default": 10
+    },
+    "scoring_weight_high_value": {
+      "type": "number",
+      "default": 15
+    },
+    "outreach_signature": {
+      "type": "string"
+    },
+    "service_packages": {
+      "type": "string"
+    }
+  },
+  "required": []
+}
